@@ -28,13 +28,13 @@ LeetCode/
 
 Every time I solve a new problem, I follow the same process to keep things organized and consistent:
 
-1. Solve the problem locally in C++.
-2. Save the solution file in the correct difficulty folder (`Easy`, `Medium`, or `Hard`), named with the problem number (e.g. `042-Trapping-Rain-Water.cpp`).
+1. Solve the problem on leetCode in C++.
+2. When accepted, I make a file locally and save the solution file in the correct difficulty folder (`Easy`, `Medium`, or `Hard`), named with the problem number (e.g. `1.cpp`).
 3. Test and confirm the solution works.
 4. Commit and push:
    ```bash
    git add .
-   git commit -m "Add solution for Problem #42 - Trapping Rain Water"
+   git commit -m "Add solution for LeetCode Problem 1"
    git push
    ```
 
