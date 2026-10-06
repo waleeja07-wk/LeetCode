@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// This Program uses two-pointer approach
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
