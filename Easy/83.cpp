@@ -60,6 +60,7 @@ public:
             curr = curr->next;
         }
         cout << "]";
+        cout << endl;
     }
 };
 
@@ -68,7 +69,8 @@ int main()
     Solution s;
     vector<int> vec = {2, 3, 3, 4, 5, 5, 5};
     ListNode *head = s.makeList(vec);
-    s.deleteDuplicates(head);
-
     s.display(head);
+    ListNode *uphead = s.deleteDuplicates(head);
+
+    s.display(uphead);
 }
